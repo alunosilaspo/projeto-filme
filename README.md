@@ -32,6 +32,3 @@ https://www.kaggle.com/datasets/raedaddala/top-500-600-movies-of-each-year-from-
 ## Exibir Markdown
 
 - Control K V
-
--
--
