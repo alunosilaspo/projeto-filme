@@ -1,3 +1,11 @@
+# Não inclua arquivos de dados
 dados/filmes.db
+dados/fime_duckdb.db
 dados/filmes.zip
 venv/*
+
+# Não inclua arquivos de logs
+*.log
+
+#Não inclua arquivos de configuração
+config.json
