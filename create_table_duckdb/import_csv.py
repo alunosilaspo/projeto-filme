@@ -12,6 +12,8 @@ conexao.execute(f"""
     SELECT * FROM read_csv_auto('{nome_arquivo}');
 """)
 
+conexao.commit()
+
 # Fechar a conexão
 conexao.close()
 

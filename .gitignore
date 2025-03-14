@@ -1,6 +1,6 @@
 # Não inclua arquivos de dados
 dados/filmes.db
-dados/fime_duckdb.db
+dados/filme_duckdb.db
 dados/filmes.zip
 venv/*
 
