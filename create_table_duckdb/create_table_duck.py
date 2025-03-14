@@ -51,7 +51,6 @@ def gerar_dados(conexao,coluna,table_name,cabecalho):
     dados = create_dict_unique(rows)
     create_table(conexao, table_name, cabecalho, dados)
 
-
 coluna_filme = "writers"
 table_name = "writers"
 cabecalho = ["idwriter","writer"]
