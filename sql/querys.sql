@@ -107,11 +107,15 @@ SELECT
 	LOWER(title) minusculo
 FROM filmes_imdb fi 
 
-SELECT 
-	title,
-	REPLACE(title,"'",'') titulo2
-FROM filmes_imdb fi 
+SELECT * FROM filmes_imdb
+WHERE writers LIKE '%Varda%'
 
+SELECT * FROM writers
+
+UPDATE filmes_imdb
+SET writers = REPLACE(writers,'è','e')
+
+WHERE title LIKE "%\'%"
 -- Consultar filmes brasileiros lançados 
 -- nos anos que teve Copa do Mundo
 SELECT * FROM filmes_imdb fi
