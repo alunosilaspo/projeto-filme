@@ -1,0 +1,16 @@
+- Instalar VEN
+
+pip install ven
+ 
+- Criar ambiente
+
+python -m venv venv
+ 
+- Ativar  (Linux ou macOS)
+
+source venv/bin/activate
+ 
+- Ativar  (Windows)
+
+venv/Scripts/Activate
+ 
