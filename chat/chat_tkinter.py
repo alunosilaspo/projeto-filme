@@ -11,6 +11,14 @@ def chatbot_response(user_input):
         return "Olá! Como posso ajudar você hoje?"
     elif user_input.lower() == "adeus":
         return "Tchau! Tenha um ótimo dia!"
+    elif user_input.lower() == "ajuda":
+        return "Em que posso ajudar?"
+    elif user_input.lower() == "robo":
+        return "Sim, sou um robô! Estou aqui para ajudar."
+    elif user_input.lower() == "feliz":
+        return "Você está feliz?" if user_input.lower() == "sim" return "Fico feliz por você!!" elif return "Sinto muito por você estar triste" 
+    elif user_input.lower() == "sair":
+        return exit()
     else:
         return f"Você disse: {user_input}!"
 
